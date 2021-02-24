@@ -1,0 +1,56 @@
+snippet importm "Import Material" b
+	import 'package:flutter/material.dart';
+endsnippet
+
+snippet stlefulW "Stateful Widget" b
+class ${1} extends StatefulWidget {
+  ${1}({Key key}) : super(key: key);
+  @override
+  _${1}State createState() => _${1}State();
+}
+
+class _${1}State extends State<${1}> {
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
+endsnippet
+
+snippet stlessW "Stateless Widget" b
+class ${1} extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Center(
+        child: Text('${1}'),
+      ),
+    );
+  }
+}
+endsnippet
+
+snippet mateapp "Material App" b
+import 'package:flutter/material.dart';
+
+void main() => runApp(MyApp());
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Material App',
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Material App Bar'),
+        ),
+        body: Center(
+          child: Container(
+            child: Text('Hello World'),
+          ),
+        ),
+      ),
+    );
+  }
+}
+endsnippet

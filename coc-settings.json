@@ -1,0 +1,5 @@
+ {
+  "coc.preferences.formatOnSaveFiletypes": ["javascript", "typescript", "typescriptreact", "json", "javascriptreact", "typescript.tsx", "svelte", "css", "scss", "html"],
+  "prettier.singleQuote": true,
+  "svelte.language-server.runtime": "/usr/bin/node"
+}
