@@ -36,13 +36,13 @@ let NERDTreeMapActivateNode='h'
 let NERDTreeMapCustomOpen='l'
 
 " show or hide .files (example .gitignore .metadata, etc)
-"let NERDTreeShowHidden=0
+let NERDTreeShowHidden=1
 
 let g:javascript_plugin_flow = 1
 
 " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
 let g:UltiSnipsSnippetDirectories=[$HOME.'/.config/nvim/UltiSnips']
-let g:UltiSnipsExpandTrigger="<S-l>"
+let g:UltiSnipsExpandTrigger="<A-l>"
 "let g:UltiSnipsJumpForwardTrigger="<S-l>"
 "let g:UltiSnipsJumpBackwardTrigger="<S-k>"
 
@@ -122,3 +122,7 @@ let g:NERDTreeGitStatusIndicatorMapCustom = {
     \ 'Ignored'   : '⛌',
     \ "Unknown"   : "?"
     \ }
+
+" coc code actions
+xmap <leader>a  <Plug>(coc-codeaction-selected)
+nmap <leader>a  <Plug>(coc-codeaction-selected)
