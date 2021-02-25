@@ -4,8 +4,13 @@ let mapleader=" "
 
 "Dart and flutter
 map <leader>df :DartFmt<CR>
-map <leader>fs :FlutterVSplit<CR>
-map <leader>fr :FlutterRun<CR>
+map <leader>fr :CocCommand flutter.run<CR>
+map <leader>fo :CocCommand flutter.toggleOutline<CR>
+map <leader>fq :CocCommand flutter.dev.quit<CR>
+map <leader>fR :CocCommand flutter.dev.hotRestart<CR>
+map <leader>fl :CocCommand flutter.dev.openDevLog<CR>
+map <leader>fc :CocCommand flutter.dev.clearDevLog<CR>
+map <leader>fd :CocCommand flutter.dev.openDevToolsProfiler<CR>
 
 " parentheses jump
 map <leader>j %
@@ -31,8 +36,8 @@ nnoremap <s-m> <c-u>
 nnoremap r <c-r>
 
 "search
-map <Leader>nl :nohlsearch<CR>
-map <Leader>f /
+map <Leader>nl :nohl<CR>
+map <Leader>fi /
 
 " testing
 nnoremap <Leader>t :TestNearest<CR>
