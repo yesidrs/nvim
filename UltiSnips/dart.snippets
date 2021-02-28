@@ -1,5 +1,5 @@
 snippet importm "Import Material" b
-	import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 endsnippet
 
 snippet stlefulW "Stateful Widget" b
@@ -53,4 +53,12 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+endsnippet
+
+snippet bblocbuilder "BlocBuilder (bloc)" b
+body: BlocBuilder<Bloc, State> (
+	builder: (context, state) {
+		return Container();
+	},
+)
 endsnippet
