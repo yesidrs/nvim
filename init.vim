@@ -16,6 +16,7 @@ set ignorecase
 set smartcase
 set laststatus=2
 set noshowmode
+set foldmethod=manual
 
 so ~/.config/nvim/maps.vim
 so ~/.config/nvim/plugins.vim
