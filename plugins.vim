@@ -53,8 +53,8 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 
 " Flutter
 Plug 'dart-lang/dart-vim-plugin'
-Plug 'natebosch/vim-lsc'
-Plug 'natebosch/vim-lsc-dart'
+"Plug 'natebosch/vim-lsc'
+"Plug 'natebosch/vim-lsc-dart'
 
 " git
 Plug 'tpope/vim-fugitive'
