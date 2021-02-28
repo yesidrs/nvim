@@ -5,22 +5,24 @@ let mapleader=" "
 "Dart and flutter
 map <leader>df :DartFmt<CR>
 map <leader>fr :CocCommand flutter.run<CR>
+map <leader>fl :CocCommand flutter.emulators<CR>
 map <leader>fo :CocCommand flutter.toggleOutline<CR>
 map <leader>fq :CocCommand flutter.dev.quit<CR>
 map <leader>fR :CocCommand flutter.dev.hotRestart<CR>
-map <leader>fl :CocCommand flutter.dev.openDevLog<CR>
+map <leader>fg :CocCommand flutter.dev.openDevLog<CR>
 map <leader>fc :CocCommand flutter.dev.clearDevLog<CR>
 map <leader>fd :CocCommand flutter.dev.openDevToolsProfiler<CR>
+map <leader>fwi :CocCommand flutter.dev.showWidgetInspectorOverride<CR>
 
 " parentheses jump
 map <leader>j %
 
 " move line code
-map <s-j> :move +1<CR>
-map <s-k> :move -2<CR>
+map <A-j> :move +1<CR>
+map <A-k> :move -2<CR>
 
 " copy line below
-nnoremap <A-j> yy p
+nnoremap <S-A-j> yy p
 
 " fast init or final code line
 map <leader>l $
@@ -50,6 +52,7 @@ nnoremap <Leader>< 10<C-w><
 
 " quick semi
 nnoremap <Leader>; $a;<Esc>
+nnoremap <Leader>, $a,<Esc>
 
 nnoremap <Leader>s :w<CR>
 nnoremap <Leader>w :q<CR>
