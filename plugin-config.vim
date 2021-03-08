@@ -36,7 +36,7 @@ let NERDTreeMapActivateNode='h'
 let NERDTreeMapCustomOpen='l'
 
 " show or hide .files (example .gitignore .metadata, etc)
-let NERDTreeShowHidden=1
+let NERDTreeShowHidden=0
 
 let g:javascript_plugin_flow = 1
 
@@ -126,3 +126,14 @@ let g:NERDTreeGitStatusIndicatorMapCustom = {
 " coc code actions
 xmap <leader>a  <Plug>(coc-codeaction-selected)
 nmap <leader>a  <Plug>(coc-codeaction-selected)
+
+" Use K to show documentation in preview window
+nnoremap <silent> K :call <SID>show_documentation()<CR>
+
+function! s:show_documentation()
+  if (index(['vim','help'], &filetype) >= 0)
+    execute 'h '.expand('<cword>')
+  else
+    call CocAction('doHover')
+  endif
+endfunction
