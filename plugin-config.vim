@@ -34,6 +34,7 @@ let NERDTreeDirArrows=1
 let NERDTreeShowLineNumbers=1
 let NERDTreeMapActivateNode='h'
 let NERDTreeMapCustomOpen='l'
+let NERDTreeMapPreview=';'
 
 " show or hide .files (example .gitignore .metadata, etc)
 let NERDTreeShowHidden=0

@@ -56,6 +56,9 @@ Plug 'dart-lang/dart-vim-plugin'
 "Plug 'natebosch/vim-lsc'
 "Plug 'natebosch/vim-lsc-dart'
 
+"Typescript React
+Plug 'mlaursen/vim-react-snippets'
+
 " git
 Plug 'tpope/vim-fugitive'
 
