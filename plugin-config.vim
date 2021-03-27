@@ -106,10 +106,11 @@ let $FZF_DEFAULT_COMMAND = 'ag -g ""'
 let g:WebDevIconsUnicodeDecorateFolderNodes = 1
 let g:DevIconsEnableFoldersOpenClose = 1
 let g:rainbow_conf = {
-        \       'separately': {
-        \               'nerdtree': 0,
-        \       }
-        \}
+      \'separately': {
+      \  'nerdtree': 0,
+      \  'html': 0,
+      \  }
+      \ }
 
 let g:NERDTreeGitStatusIndicatorMapCustom = {
     \ "Modified"  : "M",
