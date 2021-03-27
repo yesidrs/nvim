@@ -44,12 +44,14 @@ Plug 'easymotion/vim-easymotion'
 Plug 'mhinz/vim-signify'
 Plug 'yggdroot/indentline'
 Plug 'scrooloose/nerdcommenter'
-Plug 'ryanoasis/vim-devicons'
 Plug 'luochen1990/rainbow'
 Plug 'ap/vim-css-color'
 Plug 'leafOfTree/vim-matchtag'
-Plug 'Xuyuanp/nerdtree-git-plugin'
 
+" Dev Icons
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'ryanoasis/vim-devicons'
+Plug 'vwxyutarooo/nerdtree-devicons-syntax'
 
 " Flutter
 Plug 'dart-lang/dart-vim-plugin'
@@ -61,7 +63,6 @@ Plug 'mlaursen/vim-react-snippets'
 
 " git
 Plug 'tpope/vim-fugitive'
-
 Plug 'tpope/vim-repeat'
 
 call plug#end() 

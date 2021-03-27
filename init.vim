@@ -22,6 +22,8 @@ so ~/.config/nvim/maps.vim
 so ~/.config/nvim/plugins.vim
 so ~/.config/nvim/plugin-config.vim
 
-colorscheme dracula 
-"let g:gruvbox_contrast_dark = "hard"
+colorscheme gruvbox 
+let g:gruvbox_italic=1
+let g:gruvbox_contrast_dark = "hard"
+
 highlight Normal ctermbg=NONE
