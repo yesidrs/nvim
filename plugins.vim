@@ -50,8 +50,11 @@ Plug 'leafOfTree/vim-matchtag'
 
 " Dev Icons
 Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'ryanoasis/vim-devicons'
-Plug 'vwxyutarooo/nerdtree-devicons-syntax'
+Plug 'Yesid-Rodelo/vim-vscode-devicons'
+Plug 'Yesid-Rodelo/vim-vscode-color-icons'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+"Plug 'ryanoasis/vim-devicons'
+"Plug 'vwxyutarooo/nerdtree-devicons-syntax'
 
 " Flutter
 Plug 'dart-lang/dart-vim-plugin'
