@@ -29,10 +29,10 @@ map <leader>l $
 map <leader>h 0
 
 " scrolling
-noremap n 5<c-e>
-noremap m 5<c-y>
-nnoremap <s-n> <c-d>
-nnoremap <s-m> <c-u>
+noremap s 5<c-e>
+noremap f 5<c-y>
+nnoremap <s-s> <c-d>
+nnoremap <s-f> <c-u>
 
 " redo
 nnoremap r <c-r>
