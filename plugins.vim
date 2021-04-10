@@ -30,6 +30,7 @@ Plug 'christoomey/vim-tmux-navigator'
 " autocomplete
 Plug 'sirver/ultisnips'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+"Plug 'codota/tabnine-vim'
 
 " test
 Plug 'tyewang/vimux-jest-test'
@@ -46,7 +47,7 @@ Plug 'yggdroot/indentline'
 Plug 'scrooloose/nerdcommenter'
 "Plug 'luochen1990/rainbow'
 Plug 'ap/vim-css-color'
-Plug 'leafOfTree/vim-matchtag'
+"Plug 'leafOfTree/vim-matchtag'
 
 " Dev Icons
 Plug 'Xuyuanp/nerdtree-git-plugin'
@@ -61,8 +62,9 @@ Plug 'dart-lang/dart-vim-plugin'
 "Plug 'natebosch/vim-lsc'
 "Plug 'natebosch/vim-lsc-dart'
 
-"Typescript React
+"Snippets
 Plug 'mlaursen/vim-react-snippets'
+Plug 'mhartington/vim-angular2-snippets'
 
 " git
 Plug 'tpope/vim-fugitive'
