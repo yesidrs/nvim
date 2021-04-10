@@ -34,7 +34,7 @@ highlight Normal ctermbg=NONE
 hi sassClass ctermfg=Green
 hi sassClassChar ctermfg=Cyan
 
-"Js/Ts
+"Js
 hi jsBraces ctermfg=DarkMagenta 
 hi jsBrackets ctermfg=Magenta
 hi jsFuncBraces ctermfg=Blue
@@ -50,3 +50,12 @@ hi jsSwitchBraces ctermfg=Blue
 hi jsTemplateBraces ctermfg=Blue 
 hi jsDestructuringBraces ctermfg=Blue 
 hi jsObjectKey ctermfg=Blue
+hi jsOperatorKeyword ctermfg=Red
+hi jsFuncArgs ctermfg=Yellow
+
+
+"Ts
+hi typescriptDecorator ctermfg=DarkMagenta  cterm=bold
+hi typescriptBraces ctermfg=Blue
+hi typescriptClassName ctermfg=Blue
+hi typescriptBlock ctermfg=Magenta
