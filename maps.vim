@@ -2,6 +2,9 @@ let mapleader=" "
 
 "My custom maps
 
+" source %
+map <leader>% :source %<CR>
+
 "Dart and flutter
 map <leader>df :DartFmt<CR>
 map <leader>fr :CocCommand flutter.run<CR>
@@ -83,6 +86,7 @@ nnoremap <leader>kp :let @*=expand("%")<CR>
 " tabs navigation
 map <Leader>q :tabprevious<cr>
 map <Leader>e :tabnext<cr>
+nnoremap t :tabnew#<cr>
 
 " buffers
 map <Leader>ob :Buffers<cr>
