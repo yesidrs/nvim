@@ -1,7 +1,13 @@
  {
   "coc.preferences.formatOnSaveFiletypes": ["javascript", "typescript", "typescriptreact", "json", "javascriptreact", "typescript.tsx", "svelte", "css", "scss", "html"],
   "prettier.singleQuote": true,
-  "svelte.language-server.runtime": "/usr/bin/node",
-	"prettier.jsxSingleQuote": true,
-	"prettier.htmlWhitespaceSensitivity": "ignore"
+	"svelte.language-server.runtime": "/usr/bin/node",
+	"prettier.jsxSingleQuote": false,
+	"prettier.htmlWhitespaceSensitivity": "ignore",
+	"prettier.jsxBracketSameLine": true,
+	"prettier.disableLanguages": [
+		"html"
+	],
+	"html.format.wrapAttributes": "force",
+	"prettier.proseWrap": "never"
  }
