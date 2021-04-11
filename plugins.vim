@@ -47,7 +47,8 @@ Plug 'yggdroot/indentline'
 Plug 'scrooloose/nerdcommenter'
 "Plug 'luochen1990/rainbow'
 Plug 'ap/vim-css-color'
-"Plug 'leafOfTree/vim-matchtag'
+Plug 'leafOfTree/vim-matchtag'
+Plug 'yegappan/mru'
 
 " Dev Icons
 Plug 'Xuyuanp/nerdtree-git-plugin'
@@ -63,7 +64,8 @@ Plug 'dart-lang/dart-vim-plugin'
 "Plug 'natebosch/vim-lsc-dart'
 
 "Snippets
-Plug 'mlaursen/vim-react-snippets'
+Plug 'Yesid-Rodelo/custom-vim-react-snippets'
+Plug 'Yesid-Rodelo/vim-vscode-color-icons'
 Plug 'mhartington/vim-angular2-snippets'
 
 " git

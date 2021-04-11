@@ -55,7 +55,7 @@ hi jsFuncArgs ctermfg=Yellow
 
 
 "Ts
-hi typescriptDecorator ctermfg=DarkMagenta  cterm=bold
+hi typescriptDecorator ctermfg=Magenta cterm=bold
 hi typescriptBraces ctermfg=Blue
 hi typescriptClassName ctermfg=Blue
-hi typescriptBlock ctermfg=Magenta
+"hi typescriptBlock ctermfg=Magenta

@@ -1,5 +1,7 @@
 " HTML, JSX
 let g:closetag_filenames = '*.html,*.js,*.jsx,*.ts,*.tsx'
+let g:vim_matchtag_files = '*.html,*.xml,*.jsx,*.vue,*.svelte'
+
 " Lightlane
 let g:lightline = {
       \ 'active': {
@@ -51,7 +53,7 @@ let g:UltiSnipsExpandTrigger="<A-l>"
 let g:lsc_auto_map = v:true
 
 " kite
-let g:kite_supported_languages = ['javascript', 'python']
+"let g:kite_supported_languages = ['javascript', 'python']
 
 " coc
 autocmd FileType python let b:coc_suggest_disable = 1
@@ -120,8 +122,8 @@ let g:NERDTreeGitStatusIndicatorMapCustom = {
     \ "Unmerged"  : "═",
     \ "Deleted"   : "D",
     \ "Dirty"     : "●",
-    \ "Clean"     : "✔︎",
-    \ 'Ignored'   : '⛌',
+    \ "Clean"     : "✓",
+    \ 'Ignored'   : '✗',
     \ "Unknown"   : "?"
     \ }
 

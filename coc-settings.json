@@ -5,9 +5,9 @@
 	"prettier.jsxSingleQuote": false,
 	"prettier.htmlWhitespaceSensitivity": "ignore",
 	"prettier.jsxBracketSameLine": true,
-	"prettier.disableLanguages": [
-		"html"
-	],
+ // "prettier.disableLanguages": [
+		//"html"
+	//],
 	"html.format.wrapAttributes": "force",
 	"prettier.proseWrap": "never"
  }

@@ -86,7 +86,7 @@ nnoremap <leader>kp :let @*=expand("%")<CR>
 " tabs navigation
 map <Leader>q :tabprevious<cr>
 map <Leader>e :tabnext<cr>
-nnoremap t :tabnew#<cr>
+map <Leader>r :MRU<cr>
 
 " buffers
 map <Leader>ob :Buffers<cr>
@@ -95,6 +95,8 @@ map <Leader>ob :Buffers<cr>
 " faster scrolling
 nnoremap <silent> <C-e> 10<C-e>
 nnoremap <silent> <C-y> 10<C-y>
+
+" Easymotion
 nmap <Leader>m <Plug>(easymotion-s2)
 
 " git
