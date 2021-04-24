@@ -18,6 +18,8 @@ set laststatus=2
 set noshowmode
 set foldmethod=manual
 
+set langmap='z,\\,w,.e,pr,yt,fy,gu,ci,ro,lp,/[,=],aa,os,ed,uf,ig,dh,hj,tk,nl,s\\;,-',\\;q,qx,jc,kv,xb,bn,mm,w\\,,v.,z/,[-,]=,\"Q,<W,>E,PR,YT,FY,GU,CI,RO,LP,?{,+},AA,OS,ED,UF,IG,DH,HJ,TK,NL,S:,_\",:Z,QX,JC,KV,XB,BN,MM,W<,V>,Z?
+
 so ~/.config/nvim/maps.vim
 so ~/.config/nvim/plugins.vim
 so ~/.config/nvim/plugin-config.vim
@@ -55,7 +57,10 @@ hi jsFuncArgs ctermfg=Yellow
 
 
 "Ts
-hi typescriptDecorator ctermfg=Magenta cterm=bold
-hi typescriptBraces ctermfg=Blue
-hi typescriptClassName ctermfg=Blue
-"hi typescriptBlock ctermfg=Magenta
+hi typescriptDecorator  ctermfg=Magenta cterm=bold
+hi typescriptBraces     ctermfg=Blue
+hi typescriptClassName  ctermfg=Blue
+"hi typescriptImport     ctermfg=blue
+"hi typescriptMember     ctermfg=DarkGreen cterm=bold
+"hi typescriptBlock      ctermfg=Magenta
+"hi typescriptMethodAccessor       ctermfg=red
