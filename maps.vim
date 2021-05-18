@@ -1,6 +1,7 @@
 let mapleader=" "
 
 "My custom maps
+inoremap hf <Esc>
 
 " source %
 map <leader>% :source %<CR>
