@@ -2,9 +2,6 @@ call plug#begin('~/.vim/plugged')
 
 " syntax
 Plug 'sheerun/vim-polyglot'
-"Plug 'HerringtonDarkholme/yats.vim'
-"Plug 'yuezk/vim-js'
-"Plug 'flowtype/vim-flow'
 
 " status bar
 Plug 'maximbaz/lightline-ale'
@@ -40,12 +37,11 @@ Plug 'janko-m/vim-test'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
-Plug 'terryma/vim-multiple-cursors'
+Plug 'mg979/vim-visual-multi'
 Plug 'easymotion/vim-easymotion'
 Plug 'mhinz/vim-signify'
 Plug 'yggdroot/indentline'
 Plug 'scrooloose/nerdcommenter'
-"Plug 'luochen1990/rainbow'
 Plug 'ap/vim-css-color'
 Plug 'leafOfTree/vim-matchtag'
 Plug 'yegappan/mru'
@@ -54,14 +50,9 @@ Plug 'yegappan/mru'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'Yesid-Rodelo/vim-vscode-devicons'
 Plug 'Yesid-Rodelo/vim-vscode-color-icons'
-Plug 'Xuyuanp/nerdtree-git-plugin'
-"Plug 'ryanoasis/vim-devicons'
-"Plug 'vwxyutarooo/nerdtree-devicons-syntax'
 
 " Flutter
 Plug 'dart-lang/dart-vim-plugin'
-"Plug 'natebosch/vim-lsc'
-"Plug 'natebosch/vim-lsc-dart'
 
 "Snippets
 Plug 'Yesid-Rodelo/custom-vim-react-snippets'
