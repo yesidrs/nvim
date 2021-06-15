@@ -18,7 +18,6 @@ let g:lightline = {
       \ },
       \ 'component_function': {
       \   'gitbranch': 'fugitive#head',
-      \   'kitestatus': 'kite#statusline'
       \ },
       \ 'colorscheme': 'gruvbox',
       \ 'subseparator': {
@@ -28,18 +27,19 @@ let g:lightline = {
       \}
 
 "  nerdtree
-let NERDTreeShowHidden=1
+let NERDTreeShowHidden=0
 let NERDTreeQuitOnOpen=1
 let NERDTreeAutoDeleteBuffer=1
 let NERDTreeMinimalUI=1
 let NERDTreeDirArrows=1
-let NERDTreeShowLineNumbers=1
+let NERDTreeShowLineNumbers=0
+let g:NERDTreeWinPos = "right"
 let NERDTreeMapActivateNode='h'
 let NERDTreeMapCustomOpen='l'
 let NERDTreeMapPreview=';'
 
 " show or hide .files (example .gitignore .metadata, etc)
-let NERDTreeShowHidden=0
+"let NERDTreeShowHidden=0
 
 let g:javascript_plugin_flow = 1
 
@@ -52,12 +52,8 @@ let g:UltiSnipsExpandTrigger="<A-l>"
 "lsc dart
 let g:lsc_auto_map = v:true
 
-" kite
-"let g:kite_supported_languages = ['javascript', 'python']
-
 " coc
-autocmd FileType python let b:coc_suggest_disable = 1
-autocmd FileType javascript let b:coc_suggest_disable = 1
+"autocmd FileType javascript let b:coc_suggest_disable = 1
 autocmd FileType scss setl iskeyword+=@-@
 
 " vim fugitive

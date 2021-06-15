@@ -1,7 +1,7 @@
  {
-  "coc.preferences.formatOnSaveFiletypes": ["javascript", "typescript", "typescriptreact", "json", "javascriptreact", "typescript.tsx", "svelte", "css", "scss", "html"],
+	"coc.preferences.formatOnSaveFiletypes": ["javascript", "typescript", "typescriptreact", "json", "javascriptreact", "typescript.tsx", "svelte", "css", "scss", "html"],
   "prettier.singleQuote": true,
-	"svelte.language-server.runtime": "/usr/bin/node",
+	//"svelte.language-server.runtime": "/usr/bin/node",
 	"prettier.jsxSingleQuote": false,
 	"prettier.htmlWhitespaceSensitivity": "ignore",
 	"prettier.jsxBracketSameLine": true,
@@ -9,5 +9,17 @@
 		//"html"
 	//],
 	"html.format.wrapAttributes": "force",
-	"prettier.proseWrap": "never"
+	"prettier.proseWrap": "never",
+	//"prettier.tabWidth": 4
+	"languageserver": {
+		"terraform": {
+			"command": "terraform-lsp",
+			"filetypes": [
+				"terraform",
+				"tf"
+			],
+			"initializationOptions": {},
+			"settings": {}
+		}
+	}
  }

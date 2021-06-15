@@ -3,6 +3,11 @@ let mapleader=" "
 "My custom maps
 inoremap hf <Esc>
 
+
+"Format on selected
+vmap <leader>fs  <Plug>(coc-format-selected)
+nmap <leader>fs  <Plug>(coc-format-selected)
+
 " source %
 map <leader>% :source %<CR>
 

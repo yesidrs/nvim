@@ -13,7 +13,8 @@ Plug 'morhetz/gruvbox'
 Plug 'shinchu/lightline-gruvbox.vim'
 
 " Tree
-Plug 'scrooloose/nerdtree'
+"Plug 'scrooloose/nerdtree'
+Plug 'preservim/nerdtree'
 
 " typing
 Plug 'jiangmiao/auto-pairs'
