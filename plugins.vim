@@ -62,6 +62,7 @@ Plug 'mhartington/vim-angular2-snippets'
 
 " git
 Plug 'tpope/vim-fugitive'
+Plug 'rbong/vim-flog'
 Plug 'tpope/vim-repeat'
 
 call plug#end() 
