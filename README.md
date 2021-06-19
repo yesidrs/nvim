@@ -9,9 +9,16 @@ Algunas intalaciones externas son necesarias tales como:
 
 - instalar nodejs (https://nodejs.org/es/).
 
+- instalar python3 (https://www.python.org/downloads/)
+  
+  
+## (Windows) ademas de instalar la ultima version de python se deben ejecutar los siguientes comandos:
+
+- ```python -m pip install --user --upgrade pynvim```
+- ```python -m pip install --user --upgrade neovim```
 
 
-## Para Windows reemplaze las importaciones del archivo init.vim
+## (Windows) reemplaze las importaciones del archivo init.vim
 
 Las importaciones por defecto están escritas para linux/macOS.
 
@@ -40,7 +47,7 @@ Opcionales:
 
 
 
-Importante
+## Importante
 
 Porfavor lea el archivo de maps.vim y plugins-config.vim, en ellos encuentra los shorcuts personalizados estan creados en base a lo que para mi es comodo
 por ejemplo NerdTree no abre archivos con la tecla Enter sino con la letra L, por eso es importante que lea primero los shorcuts, ademas cuentan con comentarios para entender su funcionamiento.
