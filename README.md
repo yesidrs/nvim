@@ -3,24 +3,29 @@ Configuracion personal de NeoVim como IDE de desarrollo, configurado principalme
 
 Algunas intalaciones externas son necesarias tales como:
 
-- vim-plug (https://github.com/junegunn/vim-plug)
+- vim-plug (https://github.com/junegunn/vim-plug).
 
-- the_silver_searcher (https://github.com/ggreer/the_silver_searcher)
+- the_silver_searcher (https://github.com/ggreer/the_silver_searcher).
 
-Instalaciones COC
+- instalar nodejs (https://nodejs.org/es/).
 
+Instalaciones COC (no es necesario instalar todas solo las que necesites)
+
+Obligatorias para web:
 - coc-css
-- coc-docker
 - coc-emmet
-- coc-flutter-tools
 - coc-html
 - coc-json
+- coc-tsserver
 - coc-prettier
 - coc-snippets
-- coc-tsserver
+
+Opcionales:
 - coc-tabnine
 - coc-svelte
 - coc-angular
+- coc-docker
+- coc-flutter-tools
 
 Importante
 
