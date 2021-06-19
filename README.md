@@ -9,7 +9,18 @@ Algunas intalaciones externas son necesarias tales como:
 
 - instalar nodejs (https://nodejs.org/es/).
 
-Instalaciones COC (no es necesario instalar todas solo las que necesites)
+
+
+## Para Windows reemplaze las importaciones del archivo init.vim
+
+Las importaciones por defecto están escritas para linux/macOS.
+
+- so C:\Users\Your-User\AppData\Local\nvim\maps.vim
+- so C:\Users\Your-User\AppData\Local\nvim\plugins.vim
+- so C:\Users\Your-User\AppData\Local\nvim\plugin-config.vim
+
+
+## Instalaciones COC (no es necesario instalar todas solo las que necesites)
 
 Obligatorias para web:
 - coc-css
@@ -26,6 +37,8 @@ Opcionales:
 - coc-angular
 - coc-docker
 - coc-flutter-tools
+
+
 
 Importante
 
