@@ -1,15 +1,17 @@
 # Personal NEOVIM IDE Config
 Configuracion personal de NeoVim como IDE de desarrollo, configurado principalmente para desarrollo web con javascript, typescript, Angular, react y svelte. Configurado para desarrollo movil con Flutter. Cuenta con algunos snippets para los lenguajes y frameworks ya mencionados.
 
-Algunas intalaciones externas son necesarias tales como:
+Algunas instalaciones externas son necesarias tales como:
 
 - vim-plug (https://github.com/junegunn/vim-plug).
 
 - the_silver_searcher (https://github.com/ggreer/the_silver_searcher).
 
-- instalar nodejs (https://nodejs.org/es/).
+- nodejs (https://nodejs.org/es/).
 
-- instalar python3 (https://www.python.org/downloads/)
+- python3 (https://www.python.org/downloads/)
+
+- Nerdfont (https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts): es necesario para los iconos, en lo personal uso la fuente FiraCode Medium.
   
   
 ## (Windows) ademas de instalar la ultima version de python se deben ejecutar los siguientes comandos:
