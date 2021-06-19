@@ -7,21 +7,20 @@ Algunas intalaciones externas son necesarias tales como:
 
 - the_silver_searcher (https://github.com/ggreer/the_silver_searcher)
 
-- tmux (https://github.com/tmux/tmux/wiki)
-
 Instalaciones COC
 
-- coc-angular
 - coc-css
+- coc-docker
 - coc-emmet
 - coc-flutter-tools
 - coc-html
 - coc-json
 - coc-prettier
 - coc-snippets
-- coc-svelte
-- coc-tabnine
 - coc-tsserver
+- coc-tabnine
+- coc-svelte
+- coc-angular
 
 Importante
 
