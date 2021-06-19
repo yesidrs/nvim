@@ -92,10 +92,9 @@ nnoremap <leader>kp :let @*=expand("%")<CR>
 " tabs navigation
 map <Leader>q :tabprevious<cr>
 map <Leader>e :tabnext<cr>
-map <Leader>r :MRU<cr>
 
 " buffers
-map <Leader>ob :Buffers<cr>
+map <Leader>r :Buffers<cr>
 
 
 " faster scrolling

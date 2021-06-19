@@ -44,7 +44,6 @@ Plug 'yggdroot/indentline'
 Plug 'scrooloose/nerdcommenter'
 Plug 'ap/vim-css-color'
 Plug 'leafOfTree/vim-matchtag'
-Plug 'yegappan/mru'
 
 " Dev Icons
 Plug 'Xuyuanp/nerdtree-git-plugin'
