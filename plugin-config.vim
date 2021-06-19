@@ -2,6 +2,9 @@
 let g:closetag_filenames = '*.html,*.js,*.jsx,*.ts,*.tsx'
 let g:vim_matchtag_files = '*.html,*.xml,*.jsx,*.vue,*.svelte'
 
+"auto-pairs - disable warnings
+let g:VM_show_warnings = 0
+
 " Lightlane
 let g:lightline = {
       \ 'active': {
