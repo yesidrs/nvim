@@ -9,7 +9,7 @@ set cursorline
 set encoding=utf-8
 set showmatch
 set sw=2
-set relativenumber
+"set relativenumber
 set hlsearch
 set incsearch
 set ignorecase

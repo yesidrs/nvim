@@ -30,34 +30,27 @@ let g:lightline = {
       \}
 
 "  nerdtree
-let NERDTreeShowHidden=0
+let NERDTreeShowHidden=0 "show or hide .files (example .gitignore .metadata, etc)
 let NERDTreeQuitOnOpen=1
 let NERDTreeAutoDeleteBuffer=1
 let NERDTreeMinimalUI=1
 let NERDTreeDirArrows=1
 let NERDTreeShowLineNumbers=0
 let g:NERDTreeWinPos = "right"
-let NERDTreeMapActivateNode='h'
-let NERDTreeMapCustomOpen='l'
+"let NERDTreeMapActivateNode='h'
+"let NERDTreeMapCustomOpen='l'
 let NERDTreeMapPreview=';'
 
-" show or hide .files (example .gitignore .metadata, etc)
-"let NERDTreeShowHidden=0
 
+"js plugin from vim-poliglot
 let g:javascript_plugin_flow = 1
 
-" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
+"UltiSnips 
 let g:UltiSnipsSnippetDirectories=[$HOME.'/.config/nvim/UltiSnips']
-let g:UltiSnipsExpandTrigger="<A-l>"
-"let g:UltiSnipsJumpForwardTrigger="<S-l>"
-"let g:UltiSnipsJumpBackwardTrigger="<S-k>"
 
 "lsc dart
 let g:lsc_auto_map = v:true
 
-" coc
-"autocmd FileType javascript let b:coc_suggest_disable = 1
-autocmd FileType scss setl iskeyword+=@-@
 
 " vim fugitive
 command! -bang -nargs=? -complete=dir GFiles
@@ -92,13 +85,8 @@ set signcolumn=yes
 set diffopt+=vertical
 
 
-
 " Highlight symbol under cursor on CursorHold
-
 let $FZF_DEFAULT_OPTS='--layout=reverse'
-
-" Rainbow corchetes
-let g:rainbow_active = 1
 
 " ignore node_modules
 let $FZF_DEFAULT_COMMAND = 'ag -g ""'
@@ -106,13 +94,8 @@ let $FZF_DEFAULT_COMMAND = 'ag -g ""'
 "devicons
 let g:WebDevIconsUnicodeDecorateFolderNodes = 1
 let g:DevIconsEnableFoldersOpenClose = 1
-let g:rainbow_conf = {
-      \'separately': {
-      \  'nerdtree': 0,
-      \  'html': 0,
-      \  }
-      \ }
 
+"Git states icons
 let g:NERDTreeGitStatusIndicatorMapCustom = {
     \ "Modified"  : "M",
     \ "Staged"    : "A",
@@ -125,6 +108,11 @@ let g:NERDTreeGitStatusIndicatorMapCustom = {
     \ 'Ignored'   : '✗',
     \ "Unknown"   : "?"
     \ }
+
+
+" COC
+"autocmd FileType javascript let b:coc_suggest_disable = 1
+autocmd FileType scss setl iskeyword+=@-@
 
 " coc code actions
 xmap <leader>a  <Plug>(coc-codeaction-selected)

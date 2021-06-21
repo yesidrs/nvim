@@ -1,7 +1,7 @@
 let mapleader=" "
 
 "My custom maps
-inoremap hf <Esc>
+"inoremap hf <Esc>
 
 
 "Format on selected
@@ -63,6 +63,7 @@ nnoremap <Leader>< 10<C-w><
 nnoremap <Leader>; $a;<Esc>
 nnoremap <Leader>, $a,<Esc>
 
+"Save and Quit
 nnoremap <Leader>s :w<CR>
 nnoremap <Leader>w :q<CR>
 
@@ -114,12 +115,23 @@ nnoremap <Leader>gc :Git commit -m
 nnoremap <Leader>x :!node %<cr>
 
 " Use <c-space> to trigger completion.
-if &filetype == "javascript" || &filetype == "python"
-  inoremap <c-space> <C-x><C-u>
-else
-  inoremap <silent><expr> <c-space> coc#refresh()
-endif
+inoremap <silent><expr> <c-space> coc#refresh()
 
+" use <tab> for trigger completion and navigate to the next complete item
+function! s:check_back_space() abort
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~ '\s'
+endfunction
+
+inoremap <silent><expr> <Tab>
+      \ pumvisible() ? "\<C-n>" :
+      \ <SID>check_back_space() ? "\<Tab>" :
+      \ coc#refresh()
+
+" confirm config with enter
+inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+
+" Integrated Terminal
 set splitright
 
 function! OpenTerminal()
@@ -136,8 +148,8 @@ function! OpenTerminal()
     " close existing terminal
     execute "q"
   else
-    " open terminal
-    execute "vsp term://fish"
+    " open terminal - Set here your terminal (bash, cmd, powershell)
+    execute "vsp term://fish" 
 
     " turn off numbers
     execute "set nonu"
@@ -156,18 +168,3 @@ function! OpenTerminal()
   endif
 endfunction
 nnoremap <C-t> :call OpenTerminal()<CR>
-
-
-" use <tab> for trigger completion and navigate to the next complete item
-function! s:check_back_space() abort
-  let col = col('.') - 1
-  return !col || getline('.')[col - 1]  =~ '\s'
-endfunction
-
-inoremap <silent><expr> <Tab>
-      \ pumvisible() ? "\<C-n>" :
-      \ <SID>check_back_space() ? "\<Tab>" :
-      \ coc#refresh()
-
-" confirm config with enter
-inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
