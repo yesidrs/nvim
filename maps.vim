@@ -1,7 +1,7 @@
 let mapleader=" "
 
 "My custom maps
-"inoremap hf <Esc>
+"inoremap hu <Esc>
 
 
 "Format on selected
@@ -14,8 +14,8 @@ map <leader>% :source %<CR>
 "Dart and flutter
 map <leader>df :DartFmt<CR>
 map <leader>fr :CocCommand flutter.run<CR>
-map <leader>fl :CocCommand flutter.emulators<CR>
-map <leader>fo :CocCommand flutter.toggleOutline<CR>
+map <leader>fe :CocCommand flutter.emulators<CR>
+map <leader>ft :CocCommand flutter.toggleOutline<CR>
 map <leader>fq :CocCommand flutter.dev.quit<CR>
 map <leader>fR :CocCommand flutter.dev.hotRestart<CR>
 map <leader>fg :CocCommand flutter.dev.openDevLog<CR>

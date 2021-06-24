@@ -37,8 +37,8 @@ let NERDTreeMinimalUI=1
 let NERDTreeDirArrows=1
 let NERDTreeShowLineNumbers=0
 let g:NERDTreeWinPos = "right"
-"let NERDTreeMapActivateNode='h'
-"let NERDTreeMapCustomOpen='l'
+let NERDTreeMapActivateNode='h'
+let NERDTreeMapCustomOpen='l'
 let NERDTreeMapPreview=';'
 
 
@@ -47,6 +47,7 @@ let g:javascript_plugin_flow = 1
 
 "UltiSnips 
 let g:UltiSnipsSnippetDirectories=[$HOME.'/.config/nvim/UltiSnips']
+let g:UltiSnipsExpandTrigger="<A-l>" "It's necessary to coc <tab> works
 
 "lsc dart
 let g:lsc_auto_map = v:true
