@@ -11,6 +11,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'dracula/vim'
 Plug 'morhetz/gruvbox'
 Plug 'shinchu/lightline-gruvbox.vim'
+Plug 'sonph/onehalf', { 'rtp': 'vim' }
 
 " Tree
 "Plug 'scrooloose/nerdtree'
@@ -44,6 +45,8 @@ Plug 'yggdroot/indentline'
 Plug 'scrooloose/nerdcommenter'
 Plug 'ap/vim-css-color'
 Plug 'leafOfTree/vim-matchtag'
+Plug 'luochen1990/rainbow'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 " Dev Icons
 Plug 'Xuyuanp/nerdtree-git-plugin'

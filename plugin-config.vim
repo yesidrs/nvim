@@ -29,17 +29,29 @@ let g:lightline = {
       \ }
       \}
 
+
+"let g:lightline.colorscheme='onehalfdark'
+
+let g:rainbow_active = 1
+
+let g:rainbow_conf = {
+	\	'separately': {
+	\		'nerdtree': 0,
+	\	}
+	\}
+
 "  nerdtree
 let NERDTreeShowHidden=0 "show or hide .files (example .gitignore .metadata, etc)
 let NERDTreeQuitOnOpen=1
 let NERDTreeAutoDeleteBuffer=1
 let NERDTreeMinimalUI=1
 let NERDTreeDirArrows=1
-let NERDTreeShowLineNumbers=0
+let NERDTreeShowLineNumbers=1
 let g:NERDTreeWinPos = "right"
-let NERDTreeMapActivateNode='h'
-let NERDTreeMapCustomOpen='l'
-let NERDTreeMapPreview=';'
+let NERDTreeMapActivateNode='i'
+let NERDTreeMapCustomOpen='h'
+let NERDTreeMapPreview='o'
+let NERDTreeMapOpenExpl = '<C-e>'
 
 
 "js plugin from vim-poliglot
@@ -51,7 +63,6 @@ let g:UltiSnipsExpandTrigger="<A-l>" "It's necessary to coc <tab> works
 
 "lsc dart
 let g:lsc_auto_map = v:true
-
 
 " vim fugitive
 command! -bang -nargs=? -complete=dir GFiles

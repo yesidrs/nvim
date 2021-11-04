@@ -1,7 +1,7 @@
 let mapleader=" "
 
 "My custom maps
-"inoremap hu <Esc>
+"inoremap hd <Esc>
 
 
 "Format on selected
@@ -34,12 +34,12 @@ map <A-k> :move -2<CR>
 nnoremap <S-A-j> yy p
 
 " fast init or final code line
-map <leader>l $
+map <leader>i $
 map <leader>h 0
 
 " scrolling
 noremap s 5<c-e>
-noremap f 5<c-y>
+noremap t 5<c-y>
 nnoremap <s-s> <c-d>
 nnoremap <s-f> <c-u>
 
@@ -48,7 +48,6 @@ nnoremap r <c-r>
 
 "search
 map <Leader>nl :nohl<CR>
-map <Leader>fi /
 
 " testing
 nnoremap <Leader>t :TestNearest<CR>

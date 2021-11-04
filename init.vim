@@ -9,7 +9,7 @@ set cursorline
 set encoding=utf-8
 set showmatch
 set sw=2
-"set relativenumber
+set relativenumber
 set hlsearch
 set incsearch
 set ignorecase
@@ -18,14 +18,23 @@ set laststatus=2
 set noshowmode
 set foldmethod=manual
 
-" Script to use Dvorak only in insert mode and QWERTY in normal mode
-"set langmap='z,\\,w,.e,pr,yt,fy,gu,ci,ro,lp,/[,=],aa,os,ed,uf,ig,dh,hj,tk,nl,s\\;,-',\\;q,qx,jc,kv,xb,bn,mm,w\\,,v.,z/,[-,]=,\"Q,<W,>E,PR,YT,FY,GU,CI,RO,LP,?{,+},AA,OS,ED,UF,IG,DH,HJ,TK,NL,S:,_\",:Z,QX,JC,KV,XB,BN,MM,W<,V>,Z?
+
+" Colemak map keys
+nnoremap h h|xnoremap h h|onoremap h h|
+nnoremap n j|xnoremap n j|onoremap n j|
+nnoremap e k|xnoremap e k|onoremap e k|
+nnoremap i l|xnoremap i l|onoremap i l|
+nnoremap k n|xnoremap k n|onoremap k n|
+nnoremap l u|xnoremap l u|onoremap l u|
+nnoremap u i|xnoremap u i|onoremap u i|
+nnoremap f e|xnoremap f e|onoremap f e|
 
 so ~/.config/nvim/maps.vim
 so ~/.config/nvim/plugins.vim
 so ~/.config/nvim/plugin-config.vim
 
-colorscheme gruvbox 
+"colorscheme onehalfdark
+colorscheme gruvbox
 let g:gruvbox_italic=1
 let g:gruvbox_contrast_dark = "hard"
 
