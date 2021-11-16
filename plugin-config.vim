@@ -22,7 +22,7 @@ let g:lightline = {
       \ 'component_function': {
       \   'gitbranch': 'fugitive#head',
       \ },
-      \ 'colorscheme': 'gruvbox',
+      \ 'colorscheme': 'dracula',
       \ 'subseparator': {
       \   'left': '',
       \   'right': ''

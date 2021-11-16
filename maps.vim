@@ -90,11 +90,11 @@ nmap <silent> gr <Plug>(coc-references)
 nnoremap <leader>kp :let @*=expand("%")<CR>
 
 " tabs navigation
-map <Leader>q :tabprevious<cr>
-map <Leader>e :tabnext<cr>
+map <Leader>. :tabprevious<cr>
+map <Leader>/ :tabnext<cr>
 
 " buffers
-map <Leader>r :Buffers<cr>
+map <Leader>b :Buffers<cr>
 
 
 " faster scrolling
@@ -111,7 +111,7 @@ nnoremap <Leader>gl :Git pull<cr>
 nnoremap <Leader>gc :Git commit -m 
 
 " run current file
-nnoremap <Leader>x :!node %<cr>
+"nnoremap <Leader>x :!node %<cr>
 
 " Use <c-space> to trigger completion.
 inoremap <silent><expr> <c-space> coc#refresh()

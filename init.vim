@@ -9,6 +9,8 @@ set cursorline
 set encoding=utf-8
 set showmatch
 set sw=2
+set autoindent
+set smartindent
 set relativenumber
 set hlsearch
 set incsearch
@@ -20,21 +22,20 @@ set foldmethod=manual
 
 
 " Colemak map keys
-nnoremap h h|xnoremap h h|onoremap h h|
-nnoremap n j|xnoremap n j|onoremap n j|
-nnoremap e k|xnoremap e k|onoremap e k|
-nnoremap i l|xnoremap i l|onoremap i l|
-nnoremap k n|xnoremap k n|onoremap k n|
-nnoremap l u|xnoremap l u|onoremap l u|
-nnoremap u i|xnoremap u i|onoremap u i|
-nnoremap f e|xnoremap f e|onoremap f e|
+"nnoremap h h|xnoremap h h|onoremap h h|
+"nnoremap n j|xnoremap n j|onoremap n j|
+"nnoremap e k|xnoremap e k|onoremap e k|
+"nnoremap i l|xnoremap i l|onoremap i l|
+"nnoremap k n|xnoremap k n|onoremap k n|
+"nnoremap l i|xnoremap l i|onoremap l i|
+"nnoremap f e|xnoremap f e|onoremap f e|
 
 so ~/.config/nvim/maps.vim
 so ~/.config/nvim/plugins.vim
 so ~/.config/nvim/plugin-config.vim
 
 "colorscheme onehalfdark
-colorscheme gruvbox
+colorscheme dracula
 let g:gruvbox_italic=1
 let g:gruvbox_contrast_dark = "hard"
 

@@ -8,7 +8,7 @@ Plug 'maximbaz/lightline-ale'
 Plug 'itchyny/lightline.vim'
 
 " Themes
-Plug 'dracula/vim'
+Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'morhetz/gruvbox'
 Plug 'shinchu/lightline-gruvbox.vim'
 Plug 'sonph/onehalf', { 'rtp': 'vim' }
