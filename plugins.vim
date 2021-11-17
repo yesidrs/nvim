@@ -4,17 +4,16 @@ call plug#begin('~/.vim/plugged')
 Plug 'sheerun/vim-polyglot'
 
 " status bar
-Plug 'maximbaz/lightline-ale'
-Plug 'itchyny/lightline.vim'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
 
 " Themes
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'morhetz/gruvbox'
-Plug 'shinchu/lightline-gruvbox.vim'
 Plug 'sonph/onehalf', { 'rtp': 'vim' }
 
 " Tree
-"Plug 'scrooloose/nerdtree'
 Plug 'preservim/nerdtree'
 
 " typing
@@ -47,6 +46,8 @@ Plug 'ap/vim-css-color'
 Plug 'leafOfTree/vim-matchtag'
 Plug 'luochen1990/rainbow'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'psliwka/vim-smoothie'
+
 
 " Dev Icons
 Plug 'Xuyuanp/nerdtree-git-plugin'

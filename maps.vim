@@ -38,10 +38,8 @@ map <leader>i $
 map <leader>h 0
 
 " scrolling
-noremap s 5<c-e>
-noremap t 5<c-y>
-nnoremap <s-s> <c-d>
-nnoremap <s-f> <c-u>
+noremap s :tabprevious<cr>
+noremap t :tabnext<cr>
 
 " redo
 nnoremap r <c-r>
@@ -89,17 +87,8 @@ nmap <silent> gr <Plug>(coc-references)
 " diagnostics
 nnoremap <leader>kp :let @*=expand("%")<CR>
 
-" tabs navigation
-map <Leader>. :tabprevious<cr>
-map <Leader>/ :tabnext<cr>
-
 " buffers
 map <Leader>b :Buffers<cr>
-
-
-" faster scrolling
-nnoremap <silent> <C-e> 10<C-e>
-nnoremap <silent> <C-y> 10<C-y>
 
 " Easymotion
 nmap <Leader>m <Plug>(easymotion-s2)

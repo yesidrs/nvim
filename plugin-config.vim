@@ -5,33 +5,15 @@ let g:vim_matchtag_files = '*.html,*.xml,*.jsx,*.vue,*.svelte'
 "auto-pairs - disable warnings
 let g:VM_show_warnings = 0
 
-" Lightlane
-let g:lightline = {
-      \ 'active': {
-      \   'left': [['mode', 'paste'], [], ['relativepath', 'modified']],
-      \   'right': [['kitestatus'], ['filetype', 'percent', 'lineinfo'], ['gitbranch']]
-      \ },
-      \ 'inactive': {
-      \   'left': [['inactive'], ['relativepath']],
-      \   'right': [['bufnum']]
-      \ },
-      \ 'component': {
-      \   'bufnum': '%n',
-      \   'inactive': 'inactive'
-      \ },
-      \ 'component_function': {
-      \   'gitbranch': 'fugitive#head',
-      \ },
-      \ 'colorscheme': 'dracula',
-      \ 'subseparator': {
-      \   'left': '',
-      \   'right': ''
-      \ }
-      \}
+" airline
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#formatter = 'unique_tail'
+let g:airline#extensions#whitespace#enabled = 0
+let g:airline#extensions#tabline#show_buffers = 0
+let g:airline#extensions#tabline#show_splits = 0
 
-
-"let g:lightline.colorscheme='onehalfdark'
-
+" rainbow
 let g:rainbow_active = 1
 
 let g:rainbow_conf = {
