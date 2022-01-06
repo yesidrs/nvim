@@ -7,6 +7,7 @@ let mapleader=" "
 "Format on selected
 vmap <leader>fs  <Plug>(coc-format-selected)
 nmap <leader>fs  <Plug>(coc-format-selected)
+map  <leader>ff :CocCommand prettier.formatFile<CR>
 
 " source %
 map <leader>% :source %<CR>
@@ -40,6 +41,10 @@ map <leader>h 0
 " scrolling
 noremap s :tabprevious<cr>
 noremap t :tabnext<cr>
+
+" faster scrolling
+nnoremap <silent> <C-e> 5<C-e>
+nnoremap <silent> <C-y> 5<C-y>
 
 " redo
 nnoremap r <c-r>
