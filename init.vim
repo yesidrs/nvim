@@ -19,6 +19,7 @@ set smartcase
 set laststatus=2
 set noshowmode
 set foldmethod=manual
+set nowrap
 
 
 " Colemak map keys
@@ -38,6 +39,9 @@ so ~/.config/nvim/plugin-config.vim
 colorscheme dracula
 let g:gruvbox_italic=1
 let g:gruvbox_contrast_dark = "hard"
+
+"Lua Setup
+lua require('neoscroll').setup()
 
 " Custom sintax
 " all

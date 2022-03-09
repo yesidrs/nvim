@@ -3,6 +3,9 @@ let mapleader=" "
 "My custom maps
 "inoremap hd <Esc>
 
+"Horizontal Sroll
+map <C-L> 20zl 
+map <C-H> 20zh 
 
 "Format on selected
 vmap <leader>fs  <Plug>(coc-format-selected)
@@ -102,7 +105,7 @@ nmap <Leader>m <Plug>(easymotion-s2)
 nnoremap <Leader>G :Git<cr>
 nnoremap <Leader>gp :Git push<cr>
 nnoremap <Leader>gl :Git pull<cr>
-nnoremap <Leader>gc :Git commit -m 
+nnoremap <Leader>gc :Git commit -m ''
 
 " run current file
 "nnoremap <Leader>x :!node %<cr>
