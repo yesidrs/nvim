@@ -45,7 +45,6 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'ap/vim-css-color'
 Plug 'leafOfTree/vim-matchtag'
 Plug 'luochen1990/rainbow'
-Plug 'wfxr/minimap.vim'
 
 "Lua 
 Plug 'karb94/neoscroll.nvim'
