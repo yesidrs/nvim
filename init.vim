@@ -34,14 +34,12 @@ nnoremap f e|xnoremap f e|onoremap f e|
 so ~/.config/nvim/maps.vim
 so ~/.config/nvim/plugins.vim
 so ~/.config/nvim/plugin-config.vim
+so ~/.config/nvim/lua-configs.lua
 
 "colorscheme onehalfdark
 colorscheme dracula
 let g:gruvbox_italic=1
 let g:gruvbox_contrast_dark = "hard"
-
-"Lua Setup
-lua require('neoscroll').setup()
 
 " Custom sintax
 " all

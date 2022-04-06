@@ -80,8 +80,10 @@ cnoreabbrev diff Gdiff
 
 " plugs
 map <Leader>nt :NERDTreeFind<CR>
-map <Leader>p :Files<CR>
-map <Leader>ag :Ag<CR>
+map <Leader>p :Telescope git_files hidden=true<CR>
+map <Leader>rg :Telescope live_grep<CR>
+map <Leader>b :Telescope buffers<cr>
+
 
 " Use <c-space> to trigger completion.
 "inoremap <silent><expr> <c-space> coc#refresh()
@@ -95,8 +97,6 @@ nmap <silent> gr <Plug>(coc-references)
 " diagnostics
 nnoremap <leader>kp :let @*=expand("%")<CR>
 
-" buffers
-map <Leader>b :Buffers<cr>
 
 " Easymotion
 nmap <Leader>m <Plug>(easymotion-s2)
