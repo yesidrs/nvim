@@ -35,8 +35,6 @@ Plug 'janko-m/vim-test'
 
 " IDE
 Plug 'editorconfig/editorconfig-vim'
-Plug 'junegunn/fzf'
-Plug 'junegunn/fzf.vim'
 Plug 'mg979/vim-visual-multi'
 Plug 'easymotion/vim-easymotion'
 Plug 'mhinz/vim-signify'
@@ -45,9 +43,13 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'ap/vim-css-color'
 Plug 'leafOfTree/vim-matchtag'
 Plug 'luochen1990/rainbow'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 "Lua 
 Plug 'karb94/neoscroll.nvim'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
 
 " Dev Icons
 Plug 'Xuyuanp/nerdtree-git-plugin'
