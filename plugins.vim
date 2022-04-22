@@ -44,13 +44,14 @@ Plug 'ap/vim-css-color'
 Plug 'leafOfTree/vim-matchtag'
 Plug 'luochen1990/rainbow'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'puremourning/vimspector'
 
 "Lua 
 Plug 'karb94/neoscroll.nvim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
-
+ 
 " Dev Icons
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'Yesid-Rodelo/vim-vscode-devicons'

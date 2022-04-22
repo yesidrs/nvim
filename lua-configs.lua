@@ -8,8 +8,8 @@ require('nvim-treesitter.configs').setup {
       "javascript",
       "typescript",
       "html",
-      "css",
       "go",
+      "java"
    },
    highlight = {
       enable = true,

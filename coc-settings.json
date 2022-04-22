@@ -1,5 +1,6 @@
  {
-	//"coc.preferences.formatOnSaveFiletypes": ["javascript", "typescript", "typescriptreact", "json", "javascriptreact", "typescript.tsx", "svelte", "css", "scss", "html"],
+	//"coc.preferences.formatOnSaveFiletypes": ["javascript", "typescript", "typescriptreact", "json", "javascriptreact", "typescript.tsx", "svelte", "css", "scss", "html", "java"],
+	"coc.preferences.formatOnSaveFiletypes": ["java"],
   "prettier.singleQuote": true,
 	//"svelte.language-server.runtime": "/usr/bin/node",
 	"prettier.jsxSingleQuote": false,
@@ -21,6 +22,8 @@
 			"initializationOptions": {},
 			"settings": {}
 		}
-  },
-  "svelte.enable-ts-plugin": true
+  }
+  //"svelte.enable-ts-plugin": true,
+	//"java.format.enabled": true,
+	//"java.format.settings.url": "/home/yesidrs/.config/coc/extensions/node_modules/redhat.java/eclipse-formatter.xml"
  }
