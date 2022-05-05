@@ -63,6 +63,7 @@ Plug 'dart-lang/dart-vim-plugin'
 "Snippets
 Plug 'Yesid-Rodelo/custom-vim-react-snippets'
 Plug 'Yesid-Rodelo/vim-vscode-color-icons'
+Plug 'mhartington/vim-angular2-snippets'
 
 " git
 Plug 'tpope/vim-fugitive'
