@@ -50,7 +50,7 @@ nnoremap <silent> <C-e> 5<C-e>
 nnoremap <silent> <C-y> 5<C-y>
 
 " redo
-nnoremap r <c-r>
+"nnoremap r <c-r>
 
 "search
 map <Leader>nl :nohl<CR>
