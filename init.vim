@@ -31,6 +31,7 @@ nnoremap k n|xnoremap k n|onoremap k n|
 nnoremap l i|xnoremap l i|onoremap l i|
 nnoremap f e|xnoremap f e|onoremap f e|
 
+" Imports
 so ~/.config/nvim/maps.vim
 so ~/.config/nvim/plugins.vim
 so ~/.config/nvim/plugin-config.vim
