@@ -37,7 +37,7 @@ so ~/.config/nvim/plugin-config.vim
 so ~/.config/nvim/lua-configs.lua
 
 "colorscheme onehalfdark
-colorscheme dracula
+colorscheme gruvbox
 let g:gruvbox_italic=1
 let g:gruvbox_contrast_dark = "hard"
 
@@ -70,9 +70,10 @@ hi jsFuncArgs ctermfg=Yellow
 
 
 "Ts
-hi typescriptDecorator  ctermfg=Magenta cterm=bold
-hi typescriptBraces     ctermfg=Blue
-hi typescriptClassName  ctermfg=Blue
+"hi typescriptDecorator  ctermfg=Magenta cterm=bold
+"hi typescriptBraces     ctermfg=Blue
+"hi typescriptClassName  ctermfg=Blue
+
 "hi typescriptImport     ctermfg=blue
 "hi typescriptMember     ctermfg=DarkGreen cterm=bold
 "hi typescriptBlock      ctermfg=Magenta

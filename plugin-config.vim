@@ -12,6 +12,7 @@ let g:airline#extensions#tabline#formatter = 'unique_tail'
 let g:airline#extensions#whitespace#enabled = 0
 let g:airline#extensions#tabline#show_buffers = 0
 let g:airline#extensions#tabline#show_splits = 0
+let g:airline_theme='base16_gruvbox_dark_hard'
 
 " rainbow
 let g:rainbow_active = 1
