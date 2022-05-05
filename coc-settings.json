@@ -1,29 +1,29 @@
- {
-	//"coc.preferences.formatOnSaveFiletypes": ["javascript", "typescript", "typescriptreact", "json", "javascriptreact", "typescript.tsx", "svelte", "css", "scss", "html", "java"],
-	"coc.preferences.formatOnSaveFiletypes": ["java"],
+{
+  //"coc.preferences.formatOnSaveFiletypes": ["javascript", "typescript", "typescriptreact", "json", "javascriptreact", "typescript.tsx", "svelte", "css", "scss", "html", "java"],
+  "coc.preferences.formatOnSaveFiletypes": ["java"],
   "prettier.singleQuote": true,
-	//"svelte.language-server.runtime": "/usr/bin/node",
-	"prettier.jsxSingleQuote": false,
-	"prettier.htmlWhitespaceSensitivity": "ignore",
-	"prettier.jsxBracketSameLine": true,
- // "prettier.disableLanguages": [
-		//"html"
-	//],
-	"html.format.wrapAttributes": "force",
-	"prettier.proseWrap": "never",
-	//"prettier.tabWidth": 4
-	"languageserver": {
-		"terraform": {
-			"command": "terraform-lsp",
-			"filetypes": [
-				"terraform",
-				"tf"
-			],
-			"initializationOptions": {},
-			"settings": {}
-		}
+  //"svelte.language-server.runtime": "/usr/bin/node",
+  "prettier.jsxSingleQuote": false,
+  "prettier.htmlWhitespaceSensitivity": "ignore",
+  "prettier.jsxBracketSameLine": true,
+  // "prettier.disableLanguages": [
+  //"html"
+  //],
+  "html.format.wrapAttributes": "force",
+  "prettier.proseWrap": "never",
+  //"prettier.tabWidth": 4
+  "languageserver": {
+    "terraform": {
+      "command": "terraform-lsp",
+      "filetypes": ["terraform", "tf"],
+      "initializationOptions": {},
+      "settings": {}
+    }
+  },
+  "yaml.schemas": {
+    "https://raw.githubusercontent.com/docker/compose/master/compose/config/compose_spec.json": "**/docker-compose*.yml"
   }
-  //"svelte.enable-ts-plugin": true,
-	//"java.format.enabled": true,
-	//"java.format.settings.url": "/home/yesidrs/.config/coc/extensions/node_modules/redhat.java/eclipse-formatter.xml"
- }
+  //"svelte.enable-ts-plugin": trues
+  //"java.format.enabled": true,
+  //"java.format.settings.url": "/home/yesidrs/.config/coc/extensions/node_modules/redhat.java/eclipse-formatter.xml"
+}
