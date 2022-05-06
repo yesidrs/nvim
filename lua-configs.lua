@@ -15,6 +15,19 @@ require('nvim-treesitter.configs').setup {
       enable = true,
       use_languagetree = true,
    },
+   matchup = {
+    enable = true,              -- mandatory, false will disable the whole extension
+  },
+}
+
+--identation
+vim.opt.list = true
+--vim.opt.listchars:append("space:⋅")
+
+require("indent_blankline").setup {
+    -- for example, context is off by default, use this to turn it on
+    show_current_context = true,
+    show_current_context_start = true,
 }
 
 --telescope

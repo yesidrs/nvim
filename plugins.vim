@@ -27,7 +27,6 @@ Plug 'christoomey/vim-tmux-navigator'
 " autocomplete
 Plug 'sirver/ultisnips'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-"Plug 'codota/tabnine-vim'
 
 " test
 Plug 'tyewang/vimux-jest-test'
@@ -38,11 +37,8 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'mg979/vim-visual-multi'
 Plug 'easymotion/vim-easymotion'
 Plug 'mhinz/vim-signify'
-Plug 'yggdroot/indentline'
 Plug 'scrooloose/nerdcommenter'
 Plug 'ap/vim-css-color'
-Plug 'leafOfTree/vim-matchtag'
-Plug 'luochen1990/rainbow'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'puremourning/vimspector'
 
@@ -51,7 +47,9 @@ Plug 'karb94/neoscroll.nvim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
- 
+Plug 'lukas-reineke/indent-blankline.nvim'
+Plug 'andymass/vim-matchup'
+
 " Dev Icons
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'Yesid-Rodelo/vim-vscode-devicons'

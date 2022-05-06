@@ -28,23 +28,6 @@ Las importaciones por defecto están escritas para linux/macOS.
 - so C:\Users\Your-User\AppData\Local\nvim\plugins.vim
 - so C:\Users\Your-User\AppData\Local\nvim\plugin-config.vim
 
-## Posibles errores
-
-### vim-matchtag
-El plugin causará un error que no nos permitira escribir tranquilos, para solucionarlo debe dirigirse a la ruta del plugin:
-
-- Linux: ~/.vim/plugged/vim-matchtag
-- Windows: C:\Users\Your-User\.vim\vim-matchtag
-
-dentro de la carpta vim-matchtag nos dirigimos a la carpeta plugin y abrimos el archivo matchtag.vim. buscamos las lineas de codigo numero 43 y 44, por ultimo las comentamos y guardamos los cambios.
-
-
-### FZF (Solo Windows)
-
-Para el correcto funcionamiento de la ventana preview del buscador fzf es necesario en windows ejecutar los siguienes comandos en la terminal:
-
-```choco install git.install --params "/GitAndUnixToolsOnPath"```
-
 
 ## Instalaciones COC (no es necesario instalar todas solo las que necesites)
 
