@@ -37,7 +37,6 @@ so ~/.config/nvim/plugins.vim
 so ~/.config/nvim/plugin-config.vim
 so ~/.config/nvim/lua-configs.lua
 
-"colorscheme onehalfdark
 colorscheme gruvbox
 let g:gruvbox_italic=1
 let g:gruvbox_contrast_dark = "hard"
@@ -49,33 +48,3 @@ highlight Normal ctermbg=NONE
 "SCSS
 hi sassClass ctermfg=Green
 hi sassClassChar ctermfg=Cyan
-
-"Js
-hi jsBraces ctermfg=DarkMagenta 
-hi jsBrackets ctermfg=Magenta
-hi jsFuncBraces ctermfg=Blue
-hi jsClassBraces ctermfg=Blue
-hi jsIfElseBraces ctermfg=Blue 
-hi jsTryCatchBraces ctermfg=Blue
-hi jsModuleBraces ctermfg=Blue
-hi jsObjectBraces ctermfg=Blue 
-hi jsObjectSeparator ctermfg=Blue
-hi jsFinallyBraces ctermfg=Blue
-hi jsRepeatBraces ctermfg=Blue 
-hi jsSwitchBraces ctermfg=Blue 
-hi jsTemplateBraces ctermfg=Blue 
-hi jsDestructuringBraces ctermfg=Blue 
-hi jsObjectKey ctermfg=Blue
-hi jsOperatorKeyword ctermfg=Red
-hi jsFuncArgs ctermfg=Yellow
-
-
-"Ts
-"hi typescriptDecorator  ctermfg=Magenta cterm=bold
-"hi typescriptBraces     ctermfg=Blue
-"hi typescriptClassName  ctermfg=Blue
-
-"hi typescriptImport     ctermfg=blue
-"hi typescriptMember     ctermfg=DarkGreen cterm=bold
-"hi typescriptBlock      ctermfg=Magenta
-"hi typescriptMethodAccessor       ctermfg=red
