@@ -79,3 +79,7 @@ function! s:show_documentation()
     call CocAction('doHover')
   endif
 endfunction
+
+" blamer (Gitlens)
+let g:blamer_enabled = 1
+let g:blamer_delay = 500
