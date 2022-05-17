@@ -20,11 +20,12 @@ let g:rainbow_conf = {
 	\}
 
 "  nerdtree
-let NERDTreeShowHidden=0 "show or hide .files (example .gitignore .metadata, etc)
+let NERDTreeShowHidden=1 "show or hide .files (example .gitignore .metadata, etc)
 let NERDTreeQuitOnOpen=1
 let NERDTreeAutoDeleteBuffer=1
 let NERDTreeMinimalUI=1
-let NERDTreeDirArrows=1
+let NERDTreeDirArrowExpandable = "\u00a0"
+let NERDTreeDirArrowCollapsible = "\u00a0"
 let NERDTreeShowLineNumbers=1
 let g:NERDTreeWinPos = "right"
 let NERDTreeMapActivateNode='i'
