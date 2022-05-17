@@ -6,6 +6,7 @@
   "prettier.jsxSingleQuote": false,
   "prettier.htmlWhitespaceSensitivity": "ignore",
   "prettier.jsxBracketSameLine": true,
+  "prettier.tabWidth": 4,
   // "prettier.disableLanguages": [
   //"html"
   //],
