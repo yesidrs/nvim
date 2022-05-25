@@ -38,7 +38,7 @@ map <A-k> :move -2<CR>
 nnoremap <S-A-j> yy p
 
 " fast init or final code line
-map <leader>i $
+map <leader>l $
 map <leader>h 0
 
 " scrolling
