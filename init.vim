@@ -26,7 +26,7 @@ set foldmethod=manual
 set langmap=nj,ek,il,li,kn
 set nolangremap
 
-nnoremap f e
+nnoremap f e| xnoremap f e
 
 " Imports
 so ~/.config/nvim/maps.vim
