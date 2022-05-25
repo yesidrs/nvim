@@ -2,17 +2,12 @@
   //"coc.preferences.formatOnSaveFiletypes": ["javascript", "typescript", "typescriptreact", "json", "javascriptreact", "typescript.tsx", "svelte", "css", "scss", "html", "java"],
   "coc.preferences.formatOnSaveFiletypes": ["java"],
   "prettier.singleQuote": true,
-  //"svelte.language-server.runtime": "/usr/bin/node",
   "prettier.jsxSingleQuote": false,
   "prettier.htmlWhitespaceSensitivity": "ignore",
   "prettier.jsxBracketSameLine": true,
-  "prettier.tabWidth": 4,
-  // "prettier.disableLanguages": [
-  //"html"
-  //],
-  "html.format.wrapAttributes": "force",
   "prettier.proseWrap": "never",
-  //"prettier.tabWidth": 4
+  "prettier.printWidth": 80,
+  "prettier.tabWidth": 2,
   "languageserver": {
     "terraform": {
       "command": "terraform-lsp",
@@ -24,7 +19,13 @@
   "yaml.schemas": {
     "https://raw.githubusercontent.com/docker/compose/master/compose/config/compose_spec.json": "**/docker-compose*.yml"
   }
-  //"svelte.enable-ts-plugin": trues
-  //"java.format.enabled": true,
-  //"java.format.settings.url": "/home/yesidrs/.config/coc/extensions/node_modules/redhat.java/eclipse-formatter.xml"
 }
+
+//"svelte.language-server.runtime": "/usr/bin/node",
+//"svelte.enable-ts-plugin": trues
+//"java.format.enabled": true,
+//"java.format.settings.url": "/home/yesidrs/.config/coc/extensions/node_modules/redhat.java/eclipse-formatter.xml"
+//"html.format.wrapAttributes": "force",
+/*"prettier.disableLanguages": [
+    "html"
+  ]*/
