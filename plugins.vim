@@ -12,6 +12,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'morhetz/gruvbox'
 Plug 'sonph/onehalf', { 'rtp': 'vim' }
+Plug 'arcticicestudio/nord-vim'
 
 " Tree
 Plug 'preservim/nerdtree'
