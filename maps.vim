@@ -30,13 +30,6 @@ map <leader>fwi :CocCommand flutter.dev.showWidgetInspectorOverride<CR>
 " parentheses jump
 map <leader>j %
 
-" move line code
-map <A-j> :move +1<CR>
-map <A-k> :move -2<CR>
-
-" copy line below
-nnoremap <S-A-j> yy p
-
 " fast init or final code line
 map <leader>l $
 map <leader>h 0
@@ -48,9 +41,6 @@ noremap t :tabnext<cr>
 " faster scrolling
 nnoremap <silent> <C-e> 5<C-e>
 nnoremap <silent> <C-y> 5<C-y>
-
-" redo
-"nnoremap r <c-r>
 
 "search
 map <Leader>nl :nohl<CR>
