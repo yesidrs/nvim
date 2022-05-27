@@ -82,6 +82,7 @@ cnoreabbrev diff Gdiff
 map <Leader>nt :NERDTreeFind<CR>
 map <Leader>p :Telescope find_files<CR>
 map <Leader>rg :Telescope live_grep<CR>
+map <Leader>rt :Telescope git_
 map <Leader>b :Telescope buffers<cr>
 
 
