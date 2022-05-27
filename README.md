@@ -1,19 +1,23 @@
 # Personal NEOVIM IDE Config
-Configuracion personal de NeoVim como IDE de desarrollo, configurado principalmente para desarrollo web con javascript, typescript, Angular, react y svelte. Configurado para desarrollo movil con Flutter. Cuenta con algunos snippets para los lenguajes y frameworks ya mencionados.
+Configuracion personal de NeoVim como IDE de desarrollo.
 
-Algunas instalaciones externas son necesarias tales como:
+##Importante: los plugins basados en lua requieren de la version latest de neovim. Instala neovim directamente desde el repositorio de github, no uses apt, ya que la version que te ofrece este será la 0.5 y minimo se requiere desde la 0.6
+
+Dependencias necesarias:
 
 - vim-plug (https://github.com/junegunn/vim-plug).
 
-- the_silver_searcher (https://github.com/ggreer/the_silver_searcher).
+- RipGrep (https://github.com/BurntSushi/ripgrep).
 
 - nodejs (https://nodejs.org/es/).
 
 - python3 (https://www.python.org/downloads/)
 
 - Nerdfont (https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts): es necesario para los iconos, en lo personal uso la fuente FiraCode Medium.
-  
-  
+
+
+## (linux) es necesario instalar por medio de pip la libreria pynvim
+
 ## (Windows) ademas de instalar la ultima version de python se deben ejecutar los siguientes comandos:
 
 - ```python -m pip install --user --upgrade pynvim```
@@ -27,11 +31,13 @@ Las importaciones por defecto están escritas para linux/macOS.
 - so C:\Users\Your-User\AppData\Local\nvim\maps.vim
 - so C:\Users\Your-User\AppData\Local\nvim\plugins.vim
 - so C:\Users\Your-User\AppData\Local\nvim\plugin-config.vim
+- so C:\Users\Your-User\AppData\Local\nvim\lua-configs.lua
+
 
 
 ## Instalaciones COC (no es necesario instalar todas solo las que necesites)
 
-Obligatorias para web:
+web:
 - coc-css
 - coc-emmet
 - coc-html
@@ -42,7 +48,6 @@ Obligatorias para web:
 
 Opcionales:
 - coc-tabnine
-- coc-svelte
 - coc-angular
 - coc-docker
 - coc-flutter-tools
