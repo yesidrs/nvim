@@ -94,9 +94,10 @@ nmap <Leader>m <Plug>(easymotion-s2)
 
 " git
 nnoremap <Leader>G :Git<cr>
-nnoremap <Leader>gp :Git push<cr>
+nnoremap <Leader>gp :Git -c push.default=current push<cr>
 nnoremap <Leader>gl :Git pull<cr>
-nnoremap <Leader>gc :Git commit -m ''
+nnoremap <Leader>gc :Git commit -m ''<Left>
+nnoremap <Leader>gk :Git checkout 
 
 " run current file
 "nnoremap <Leader>x :!node %<cr>
