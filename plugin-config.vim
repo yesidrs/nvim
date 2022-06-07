@@ -23,8 +23,8 @@ let NERDTreeDirArrowExpandable = "\u00a0"
 let NERDTreeDirArrowCollapsible = "\u00a0"
 let NERDTreeShowLineNumbers=1
 let g:NERDTreeWinPos = "right"
-let NERDTreeMapActivateNode='l'
-let NERDTreeMapCustomOpen='h'
+"let NERDTreeMapActivateNode='l'
+"let NERDTreeMapCustomOpen='h'
 let NERDTreeMapPreview='o'
 let NERDTreeMapOpenExpl = '<C-e>'
 
