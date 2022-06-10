@@ -41,7 +41,6 @@ Plug 'mhinz/vim-signify'
 Plug 'scrooloose/nerdcommenter'
 Plug 'ap/vim-css-color'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-Plug 'puremourning/vimspector'
 Plug 'APZelos/blamer.nvim'
 
 "Lua 
