@@ -10,7 +10,8 @@ let g:airline#extensions#tabline#show_buffers = 0
 let g:airline#extensions#tabline#show_splits = 0
 
 " airline_theme
-let g:airline_theme='base16_gruvbox_dark_hard'
+"let g:airline_theme='base16_gruvbox_dark_hard'
+let g:airline_theme = 'gruvbox_material'
 "let g:airline_theme='dracula'
 "let g:airline_theme='nord'
 
@@ -25,7 +26,7 @@ let NERDTreeShowLineNumbers=1
 let g:NERDTreeWinPos = "right"
 "let NERDTreeMapActivateNode='l'
 "let NERDTreeMapCustomOpen='h'
-let NERDTreeMapPreview='o'
+let NERDTreeMapPreview=';'
 let NERDTreeMapOpenExpl = '<C-e>'
 
 "js plugin from vim-poliglot

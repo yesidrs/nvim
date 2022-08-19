@@ -21,7 +21,6 @@ set noshowmode
 set foldmethod=manual
 "set nowrap
 
-
 "Mapping to move in colemak layout
 "set langmap=nj,ek,il,li,kn
 "set nolangremap
@@ -33,9 +32,23 @@ so ~/.config/nvim/plugins.vim
 so ~/.config/nvim/plugin-config.vim
 so ~/.config/nvim/lua-configs.lua
 
-colorscheme gruvbox
-let g:gruvbox_italic=1
-let g:gruvbox_contrast_dark = "hard"
+
+if has('termguicolors')
+	set termguicolors
+endif
+
+set background=dark
+
+" Original Gruvbox
+"colorscheme gruvbox
+"let g:gruvbox_italic=1
+"let g:gruvbox_contrast_dark = "hard"
+
+let g:gruvbox_material_background = 'hard'
+let g:gruvbox_material_better_performance = 1
+let g:gruvbox_material_enable_italic = 1
+
+colorscheme gruvbox-material
 
 " Custom sintax
 " all

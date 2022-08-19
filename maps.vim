@@ -35,8 +35,8 @@ map <leader>l $
 map <leader>h 0
 
 " scrolling
-noremap s :tabprevious<cr>
-noremap t :tabnext<cr>
+noremap t :tabprevious<cr>
+noremap s :tabnext<cr>
 
 " faster scrolling
 nnoremap <silent> <C-e> 5<C-e>
