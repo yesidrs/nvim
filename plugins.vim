@@ -29,6 +29,7 @@ Plug 'christoomey/vim-tmux-navigator'
 " autocomplete
 Plug 'sirver/ultisnips'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'github/copilot.vim'
 
 " test
 Plug 'tyewang/vimux-jest-test'
@@ -43,6 +44,7 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'ap/vim-css-color'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'APZelos/blamer.nvim'
+Plug 'smithbm2316/centerpad.nvim'
 
 "Lua 
 Plug 'karb94/neoscroll.nvim'

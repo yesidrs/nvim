@@ -4,10 +4,10 @@
   "prettier.singleQuote": true,
   "prettier.jsxSingleQuote": false,
   "prettier.htmlWhitespaceSensitivity": "ignore",
-  "prettier.jsxBracketSameLine": true,
+  //"prettier.jsxBracketSameLine": true,
   "prettier.proseWrap": "never",
-  "prettier.printWidth": 80,
-  "prettier.tabWidth": 2,
+  "prettier.printWidth": 150,
+  "prettier.tabWidth": 4,
   "languageserver": {
     "terraform": {
       "command": "terraform-lsp",

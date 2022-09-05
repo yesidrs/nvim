@@ -3,6 +3,7 @@ let mapleader=" "
 "My custom maps
 "inoremap hd <Esc>
 
+nnoremap <C-c> :Centerpad<cr>
 "Horizontal Sroll
 map <C-L> 20zl 
 map <C-H> 20zh 
@@ -45,10 +46,15 @@ nnoremap <silent> <C-y> 5<C-y>
 "search
 map <Leader>nl :nohl<CR>
 
-" testing
-nnoremap <Leader>t :TestNearest<CR>
-nnoremap <Leader>T :TestFile<CR>
-nnoremap <Leader>TT :TestSuite<CR>
+" testing Jest
+"nnoremap <Leader>t :TestNearest<CR>
+"nnoremap <Leader>T :TestFile<CR>
+"nnoremap <Leader>TT :TestSuite<CR>
+
+" testing Vitest
+nnoremap <Leader>t :CocCommand vitest.singleTest<CR>
+nnoremap <Leader>T :CocCommand vitest.fileTest<CR>
+nnoremap <Leader>TT :CocCommand vitest.projectTest<CR>
 
 " split resize
 nnoremap <Leader>> 10<C-w>>
