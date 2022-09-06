@@ -3,7 +3,10 @@ let mapleader=" "
 "My custom maps
 "inoremap hd <Esc>
 
+" Obviously
 nnoremap <C-c> :Centerpad<cr>
+vnoremap <Leader>S :sort<cr>
+
 "Horizontal Sroll
 map <C-L> 20zl 
 map <C-H> 20zh 
@@ -57,8 +60,8 @@ nnoremap <Leader>T :CocCommand vitest.fileTest<CR>
 nnoremap <Leader>TT :CocCommand vitest.projectTest<CR>
 
 " split resize
-nnoremap <Leader>> 10<C-w>>
-nnoremap <Leader>< 10<C-w><
+nnoremap <Leader>> 20<C-w>>
+nnoremap <Leader>< 20<C-w><
 
 " quick semi
 nnoremap <Leader>; $a;<Esc>
