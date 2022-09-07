@@ -18,6 +18,8 @@ set showmatch
 set smartcase
 set smartindent
 set sw=2
+set nobackup
+set nowritebackup
 syntax on
 "set nowrap
 
@@ -26,12 +28,17 @@ syntax on
 "set nolangremap
 "nnoremap f e| xnoremap f e
 
-" Imports
-so ~/.config/nvim/maps.vim
-so ~/.config/nvim/plugins.vim
-so ~/.config/nvim/plugin-config.vim
-so ~/.config/nvim/lua-configs.lua
+" Imports - Linux
+"so ~/.config/nvim/maps.vim
+"so ~/.config/nvim/plugins.vim
+"so ~/.config/nvim/plugin-config.vim
+"so ~/.config/nvim/lua-configs.lua
 
+" Windows - Here change the username to your own
+so C:\Users\Yesid\AppData\Local\nvim\maps.vim
+so C:\Users\Yesid\AppData\Local\nvim\plugins.vim
+so C:\Users\Yesid\AppData\Local\nvim\plugin-config.vim
+so C:\Users\Yesid\AppData\Local\nvim\lua-configs.lua
 
 if has('termguicolors')
 	set termguicolors
@@ -46,7 +53,8 @@ set background=dark
 
 let g:gruvbox_material_background = 'hard'
 let g:gruvbox_material_better_performance = 1
-"let g:gruvbox_material_enable_italic = 1
+let g:gruvbox_material_disable_italic_comment = 1
+let g:gruvbox_material_enable_italic = 1
 
 colorscheme gruvbox-material
 
