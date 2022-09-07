@@ -1,7 +1,7 @@
-# Personal NEOVIM IDE Config
-Configuracion personal de NeoVim como IDE de desarrollo.
+# Personal Neovim IDE Config
+Configuración personal de NeoVim como IDE de desarrollo.
 
-##Importante: los plugins basados en lua requieren de la version latest de neovim. Instala neovim directamente desde el repositorio de github, no uses apt, ya que la version que te ofrece este será la 0.5 y minimo se requiere desde la 0.6
+##Importante: los plugins basados en lua requieren de la version latest de neovim. Instala neovim directamente desde el repositorio de github, no uses apt, ya que la version que te ofrece este será la 0.5 y mínimo se requiere desde la 0.6
 
 Dependencias necesarias:
 
@@ -13,26 +13,20 @@ Dependencias necesarias:
 
 - python3 (https://www.python.org/downloads/)
 
-- Nerdfont (https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts): es necesario para los iconos, en lo personal uso la fuente FiraCode Medium.
+- NerdFont: En la carpeta Fonts encontraras lo fuente que uso (Cascursive).
 
+- GCC (https://github.com/nvim-treesitter/nvim-treesitter/wiki/Windows-support#gcc): Treesitter requiere de un compilador de C, el cual se puede instalar por medio de scoop. 
 
-## (linux) es necesario instalar por medio de pip la libreria pynvim
+## (Linux) es necesario instalar por medio de pip la librería pynvim
 
 ## (Windows) ademas de instalar la ultima version de python se deben ejecutar los siguientes comandos:
 
 - ```python -m pip install --user --upgrade pynvim```
-- ```python -m pip install --user --upgrade neovim```
 
 
-## (Windows) reemplaze las importaciones del archivo init.vim
+## (Windows/Linux) reemplace las importaciones del archivo init.vim
 
-Las importaciones por defecto están escritas para linux/macOS.
-
-- so C:\Users\Your-User\AppData\Local\nvim\maps.vim
-- so C:\Users\Your-User\AppData\Local\nvim\plugins.vim
-- so C:\Users\Your-User\AppData\Local\nvim\plugin-config.vim
-- so C:\Users\Your-User\AppData\Local\nvim\lua-configs.lua
-
+En el archivo init vim encontrará los dos tipos de importaciones dependiendo del sistema operativo.
 
 
 ## Instalaciones COC (no es necesario instalar todas solo las que necesites)
@@ -47,7 +41,6 @@ web:
 - coc-snippets
 
 Opcionales:
-- coc-tabnine
 - coc-angular
 - coc-docker
 - coc-flutter-tools
@@ -56,5 +49,5 @@ Opcionales:
 
 ## Importante
 
-Porfavor lea el archivo de maps.vim y plugins-config.vim, en ellos encuentra los shorcuts personalizados estan creados en base a lo que para mi es comodo
-por ejemplo NerdTree no abre archivos con la tecla Enter sino con la letra L, por eso es importante que lea primero los shorcuts, ademas cuentan con comentarios para entender su funcionamiento.
+Por favor lea el archivo de maps.vim y plugins-config.vim, en ellos encuentra los shortcuts personalizados están creados en base a lo que para mi es cómodo
+por ejemplo NerdTree no abre archivos con la tecla Enter sino con la letra L, por eso es importante que lea primero los shortcuts, ademas cuentan con comentarios para entender su funcionamiento.
