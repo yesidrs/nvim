@@ -84,9 +84,6 @@ map <Leader>rg :Telescope live_grep<CR>
 map <Leader>rt :Telescope git_
 map <Leader>b :Telescope buffers<cr>
 
-
-" Use <c-space> to trigger completion.
-"inoremap <silent><expr> <c-space> coc#refresh()
  
 " Remap keys for gotos
 nmap <silent> gd <Plug>(coc-definition)
@@ -111,22 +108,20 @@ nnoremap <Leader>gk :Git checkout
 " run current file
 "nnoremap <Leader>x :!node %<cr>
 
-" Use <c-space> to trigger completion.
-inoremap <silent><expr> <c-space> coc#refresh()
+" Make <CR> to accept selected completion item or notify coc.nvim to format
+" <C-g>u breaks current undo, please make your own choice.
+inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
+                              \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
 
-" use <tab> for trigger completion and navigate to the next complete item
-function! s:check_back_space() abort
+function! CheckBackspace() abort
   let col = col('.') - 1
-  return !col || getline('.')[col - 1]  =~ '\s'
+  return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
 
-inoremap <silent><expr> <Tab>
-      \ pumvisible() ? "\<C-n>" :
-      \ <SID>check_back_space() ? "\<Tab>" :
-      \ coc#refresh()
 
-" confirm config with enter
-inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+" Use <c-space> to trigger completion.
+"inoremap <silent><expr> <c-space> coc#refresh()
+
 
 " Integrated Terminal
 set splitright
