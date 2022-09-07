@@ -66,6 +66,9 @@ autocmd FileType scss setl iskeyword+=@-@
 xmap <leader>a  <Plug>(coc-codeaction-selected)
 nmap <leader>a  <Plug>(coc-codeaction-selected)
 
+" Highlight the symbol and its references when holding the cursor.
+autocmd CursorHold * silent call CocActionAsync('highlight')
+
 " Use K to show documentation in preview window
 nnoremap <silent> K :call <SID>show_documentation()<CR>
 
@@ -76,6 +79,9 @@ function! s:show_documentation()
     call CocAction('doHover')
   endif
 endfunction
+
+" Symbol renaming.
+nmap <leader>rn <Plug>(coc-rename)
 
 " blamer (Gitlens)
 let g:blamer_enabled = 1
